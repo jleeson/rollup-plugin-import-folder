@@ -10,7 +10,7 @@ import fs from "fs";
  */
 function getFileExt(filepath) {
     try {
-        if (fs.statSync(filepath + ".js").isFile()) return ".js"
+        if (fs.statSync(filepath + ".js").isFile()) return ".js";
         else if (fs.statSync(filepath + ".ts").isFile()) return ".ts";
         else return false;
     } catch {
@@ -21,7 +21,7 @@ function getFileExt(filepath) {
 export default (options = {}) => {
 
     const include = ["**/*.js", "**/*.ts"].concat(options.include || []);
-    const filter = createFilter(include, options.exclude || [])
+    const filter = createFilter(include, options.exclude || []);
 
     return {
         name: "import-folder",
@@ -48,5 +48,5 @@ export default (options = {}) => {
 
             return null;
         }
-    }
-}
+    };
+};
