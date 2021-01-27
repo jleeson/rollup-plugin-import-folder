@@ -18,4 +18,4 @@ export default {
         })
     ],
     external: builtinModules.concat(Object.keys(dependencies))
-}
+};
