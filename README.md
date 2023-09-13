@@ -4,7 +4,7 @@ A Rollup plugin to resolve modules using the folder name
 
 ![Actions](https://github.com/jleeson/rollup-plugin-import-folder/workflows/build/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jleeson/rollup-plugin-import-folder/blob/master/LICENSE)
-[![Donate](https://img.shields.io/badge/patreon-donate-green.svg)](https://www.patreon.com/outwalkstudios)
+[![Follow Us](https://img.shields.io/badge/follow-on%20twitter-4AA1EC.svg)](https://twitter.com/jleesons)
 
 ---
 
