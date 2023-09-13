@@ -1,10 +1,13 @@
 {
   "name": "rollup-plugin-import-folder",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Rollup plugin to resolve modules using the folder name",
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.esm.js",
   "types": "types/plugin.d.ts",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint src",
@@ -22,9 +25,9 @@
   ],
   "exports": {
     ".": {
-      "require": "./dist/plugin.cjs.js",
-      "import": "./dist/plugin.esm.js",
-      "default": "./dist/plugin.esm.js"
+      "types": "./types/plugin.d.ts",
+      "require": "./dist/plugin.js",
+      "import": "./dist/plugin.mjs"
     }
   },
   "repository": {
@@ -47,6 +50,6 @@
     "@rollup/pluginutils": "^5.0.4"
   },
   "peerDependencies": {
-    "rollup": "^1.x.x||^2.x.x||^3.x.x"
+    "rollup": "^1.x.x || ^2.x.x || ^3.x.x"
   }
 }
