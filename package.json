@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-import-folder",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Rollup plugin to resolve modules using the folder name",
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.esm.js",
@@ -50,6 +50,6 @@
     "@rollup/pluginutils": "^5.0.4"
   },
   "peerDependencies": {
-    "rollup": "^1.x.x || ^2.x.x || ^3.x.x"
+    "rollup": "^1.x.x || ^2.x.x || ^3.x.x || ^4.x.x"
   }
 }
